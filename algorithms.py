@@ -1,4 +1,4 @@
-def euclidean_gcd(a, b):
+def euclidean_gcd(a: int, b: int) -> int:
     """
     Finds greatest common divisor of two numbers (Euclidean algorithm)
     >>> euclidean_gcd(0, 0)
